@@ -13,3 +13,9 @@ D:\Projects\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\obj\Debug\
 E:\Softuni\JS Core\JS Advanced\New folder\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\bin\Debug\ListProcessing.exe.config
 E:\Softuni\JS Core\JS Advanced\New folder\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\obj\Debug\ListProcessing.exe
 E:\Softuni\JS Core\JS Advanced\New folder\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\obj\Debug\ListProcessing.pdb
+C:\Users\Angel\Desktop\New folder (2)\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\bin\Debug\ListProcessing.exe.config
+C:\Users\Angel\Desktop\New folder (2)\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\obj\Debug\ListProcessing.exe
+C:\Users\Angel\Desktop\New folder (2)\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\obj\Debug\ListProcessing.pdb
+C:\Users\Angel\Desktop\New folder (2)\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\bin\Debug\ListProcessing.exe
+C:\Users\Angel\Desktop\New folder (2)\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\bin\Debug\ListProcessing.pdb
+C:\Users\Angel\Desktop\New folder (2)\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\obj\Debug\ListProcessing.csprojResolveAssemblyReference.cache
