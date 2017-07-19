@@ -36,7 +36,7 @@ namespace ListProcessing
                             mainList = Reverser.Reverse(mainList);
                             break;
                         case "insert":
-
+                            Inserter.Insert(int.Parse(commandArgs[1]),commandArgs[2], mainList);
                             break;
                         case "delete":
 
