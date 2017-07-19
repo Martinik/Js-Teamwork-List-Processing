@@ -27,10 +27,10 @@ namespace ListProcessing
                     switch (commandArgs[0])
                     {
                         case "append":
-
+                            Appender.Append(mainList,commandArgs);
                             break;
                         case "prepend":
-
+                            Prepender.Prepend(mainList, commandArgs);
                             break;
                         case "reverse":
                             mainList = Reverser.Reverse(mainList);
