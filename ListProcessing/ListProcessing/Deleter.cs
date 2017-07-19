@@ -19,7 +19,7 @@ namespace ListProcessing
                 return originalList;
             }
 
-            if (index < 0 || index > originalList.Count)
+            if (index < 0 || index > originalList.Count - 1)
             {
                 Console.WriteLine($"Error: invalid index {index}");
                 return originalList;
