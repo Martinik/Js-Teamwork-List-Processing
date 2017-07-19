@@ -10,3 +10,6 @@ D:\Projects\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\bin\Debug\
 D:\Projects\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\obj\Debug\ListProcessing.csprojResolveAssemblyReference.cache
 D:\Projects\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\obj\Debug\ListProcessing.exe
 D:\Projects\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\obj\Debug\ListProcessing.pdb
+E:\Softuni\JS Core\JS Advanced\New folder\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\bin\Debug\ListProcessing.exe.config
+E:\Softuni\JS Core\JS Advanced\New folder\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\obj\Debug\ListProcessing.exe
+E:\Softuni\JS Core\JS Advanced\New folder\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\obj\Debug\ListProcessing.pdb

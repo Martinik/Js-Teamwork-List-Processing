@@ -42,7 +42,7 @@ namespace ListProcessing
 
                             break;
                         case "roll":
-
+                            Roller.Roll(mainList, commandArgs);
                             break;
                         case "sort":
                             mainList = Sorter.Sort(mainList);
