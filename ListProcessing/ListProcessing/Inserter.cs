@@ -10,17 +10,23 @@ namespace ListProcessing
     {
         public static void Insert(int index, string input, List<string> originalList)
         {
-            if (index<0 || index>originalList.Count)
+            if (index < 0 || index > originalList.Count)
             {
-                Console.WriteLine("Error: invalid index "+index+".");
+                Console.WriteLine("Error: invalid index " + index + ".");
             }
-            originalList.Insert(index, input);
-
-            foreach (var item in originalList)
+            else if (String.IsNullOrEmpty(input))
             {
-                Console.Write(item + ' ');
+                Console.WriteLine("Error: invalid command parameters");
             }
-            Console.WriteLine();
+            else
+            {
+                originalList.Insert(index, input);
+                foreach (var item in originalList)
+                {
+                    Console.Write(item + ' ');
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
