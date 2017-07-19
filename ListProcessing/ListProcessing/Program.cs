@@ -11,49 +11,57 @@ namespace ListProcessing
     {
         static void Main(string[] args)
         {
-            List<string> mainList = Console.ReadLine().Split(new char[' '], StringSplitOptions.RemoveEmptyEntries).ToList();
-            List<string> commandArgs = Console.ReadLine().Split(new char[' '], StringSplitOptions.RemoveEmptyEntries).ToList();
+            char[] stringSplitChars = new[] {' '};
+            List<string> mainList = Console.ReadLine().Split(stringSplitChars, StringSplitOptions.RemoveEmptyEntries).ToList();
+            Console.WriteLine(string.Join(" ", mainList));
+            List<string> commandArgs = Console.ReadLine().Split(stringSplitChars, StringSplitOptions.RemoveEmptyEntries).ToList();
 
             while (true)
             {
-
-                switch (commandArgs[0])
+                if (commandArgs.Count == 0)
                 {
-                    case "append":
+                    Console.WriteLine("Error: invalid command");
+                }
+                else
+                {
+                    switch (commandArgs[0])
+                    {
+                        case "append":
 
-                        break;
-                    case "prepend":
+                            break;
+                        case "prepend":
 
-                        break;
-                    case "reverse":
+                            break;
+                        case "reverse":
+                            mainList = Reverser.Reverse(mainList);
+                            break;
+                        case "insert":
 
-                        break;
-                    case "insert":
+                            break;
+                        case "delete":
 
-                        break;
-                    case "delete":
+                            break;
+                        case "roll":
 
-                        break;
-                    case "roll":
+                            break;
+                        case "sort":
+                            mainList = Sorter.Sort(mainList);
+                            break;
+                        case "count":
 
-                        break;
-                    case "sort":
+                            break;
+                        case "end":
 
-                        break;
-                    case "count":
+                            break;
 
-                        break;
-                    case "end":
+                        default:
+                            Console.WriteLine("Error: invalid command");
+                            break;
 
-                        break;
-
-                    default:
-                        //TODO: this
-                        break;
-
+                    }
                 }
 
-                commandArgs = Console.ReadLine().Split(new char[' '], StringSplitOptions.RemoveEmptyEntries).ToList();
+                commandArgs = Console.ReadLine().Split(stringSplitChars, StringSplitOptions.RemoveEmptyEntries).ToList();
 
             }
 

@@ -1,0 +1,6 @@
+C:\Users\Y50\Documents\GitHub\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\bin\Debug\ListProcessing.exe.config
+C:\Users\Y50\Documents\GitHub\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\bin\Debug\ListProcessing.exe
+C:\Users\Y50\Documents\GitHub\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\bin\Debug\ListProcessing.pdb
+C:\Users\Y50\Documents\GitHub\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\obj\Debug\ListProcessing.csprojResolveAssemblyReference.cache
+C:\Users\Y50\Documents\GitHub\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\obj\Debug\ListProcessing.exe
+C:\Users\Y50\Documents\GitHub\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\obj\Debug\ListProcessing.pdb
