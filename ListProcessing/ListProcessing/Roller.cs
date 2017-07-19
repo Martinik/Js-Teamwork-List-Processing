@@ -10,7 +10,11 @@ namespace ListProcessing
     {
         public static void Roll(List<string> mainList, List<string> commandArgs)
         {
-            if (commandArgs[1].Equals("left"))
+            if (commandArgs.Count == 1)
+            {
+                Console.WriteLine("Error: invalid command");
+            }
+            else if (commandArgs[1].Equals("left"))
             {
                 string firstElement = mainList[0];
                 for (int i = 0; i < mainList.Count - 1; i++)
@@ -25,7 +29,7 @@ namespace ListProcessing
                 }
                 Console.WriteLine();
             }
-            else
+            else if (commandArgs[1].Equals("right"))
             {
                 string lastElement = mainList[mainList.Count - 1];
                 for (int i = mainList.Count - 1; i > 0; i--)
@@ -38,6 +42,10 @@ namespace ListProcessing
                     Console.Write(el + " ");
                 }
                 Console.WriteLine();
+            }
+            else
+            {
+                Console.WriteLine("Error: invalid command");
             }
         }
     }

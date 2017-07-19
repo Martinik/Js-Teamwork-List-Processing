@@ -19,3 +19,9 @@ C:\Users\Angel\Desktop\New folder (2)\Js-Teamwork-List-Processing\ListProcessing
 C:\Users\Angel\Desktop\New folder (2)\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\bin\Debug\ListProcessing.exe
 C:\Users\Angel\Desktop\New folder (2)\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\bin\Debug\ListProcessing.pdb
 C:\Users\Angel\Desktop\New folder (2)\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\obj\Debug\ListProcessing.csprojResolveAssemblyReference.cache
+E:\Softuni\JS Core\JS Advanced\TeamWork-Managment boards\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\bin\Debug\ListProcessing.exe.config
+E:\Softuni\JS Core\JS Advanced\TeamWork-Managment boards\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\obj\Debug\ListProcessing.exe
+E:\Softuni\JS Core\JS Advanced\TeamWork-Managment boards\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\obj\Debug\ListProcessing.pdb
+E:\Softuni\JS Core\JS Advanced\TeamWork-Managment boards\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\bin\Debug\ListProcessing.exe
+E:\Softuni\JS Core\JS Advanced\TeamWork-Managment boards\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\bin\Debug\ListProcessing.pdb
+E:\Softuni\JS Core\JS Advanced\TeamWork-Managment boards\Js-Teamwork-List-Processing\ListProcessing\ListProcessing\obj\Debug\ListProcessing.csprojResolveAssemblyReference.cache
