@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Appender.cs" />
+    <Compile Include="Deleter.cs" />
     <Compile Include="Inserter.cs" />
     <Compile Include="Prepender.cs" />
     <Compile Include="Program.cs" />

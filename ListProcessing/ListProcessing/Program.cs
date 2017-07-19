@@ -39,7 +39,7 @@ namespace ListProcessing
                             Inserter.Insert(int.Parse(commandArgs[1]),commandArgs[2], mainList);
                             break;
                         case "delete":
-
+                            mainList = Deleter.Delete(mainList, commandArgs);
                             break;
                         case "roll":
                             Roller.Roll(mainList, commandArgs);
