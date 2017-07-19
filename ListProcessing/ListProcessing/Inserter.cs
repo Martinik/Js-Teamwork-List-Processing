@@ -8,19 +8,24 @@ namespace ListProcessing
 {
     static class Inserter
     {
-        public static void Insert(int index, string input, List<string> originalList)
+        public static void Insert(List<string> commandArgs, List<string> originalList)
         {
-            if (index < 0 || index > originalList.Count)
+            if (commandArgs.Count<3|| commandArgs.Count>3)
             {
-                Console.WriteLine("Error: invalid index " + index + ".");
+                Console.WriteLine("Error: invalid command parameters");
             }
-            else if (String.IsNullOrEmpty(input))
+            //int index, string input
+            else if (int.Parse(commandArgs[1]) < 0 || int.Parse(commandArgs[1]) > originalList.Count)
+            {
+                Console.WriteLine("Error: invalid index " + int.Parse(commandArgs[1]) + ".");
+            }
+            else if (String.IsNullOrEmpty(commandArgs[2]))
             {
                 Console.WriteLine("Error: invalid command parameters");
             }
             else
             {
-                originalList.Insert(index, input);
+                originalList.Insert(int.Parse(commandArgs[1]), commandArgs[2]);
                 foreach (var item in originalList)
                 {
                     Console.Write(item + ' ');
