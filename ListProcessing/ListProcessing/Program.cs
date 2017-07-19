@@ -45,7 +45,7 @@ namespace ListProcessing
                             Roller.Roll(mainList, commandArgs);
                             break;
                         case "sort":
-                            mainList = Sorter.Sort(mainList);
+                            mainList = Sorter.Sort(mainList, commandArgs);
                             break;
                         case "count":
 
