@@ -15,6 +15,7 @@ namespace ListProcessing
                 }
 
                 Console.WriteLine(howMany);
+                Console.WriteLine();
             }
 
         }
