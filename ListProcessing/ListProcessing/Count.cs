@@ -8,7 +8,7 @@ namespace ListProcessing
 {
     static class Counter
     {
-        public static List<string> Count(List<string>originalList, List<string>commandArgs)
+        public static void Count(List<string>originalList, List<string>commandArgs)
         {
             string searched = commandArgs[1];
             int howMany = 0;
@@ -21,8 +21,11 @@ namespace ListProcessing
                 }
 
                 Console.WriteLine(howMany);
+                Console.WriteLine();
+              
             }
 
         }
     }
 }
+
