@@ -48,7 +48,7 @@ namespace ListProcessing
                             mainList = Sorter.Sort(mainList, commandArgs);
                             break;
                         case "count":
-                           //execute Count.cs
+                           mainList=Counter.Count(mainList, commandArgs);
                             break;
                         case "end":
                             Console.Writeline("finished");
