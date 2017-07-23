@@ -48,10 +48,10 @@ namespace ListProcessing
                             mainList = Sorter.Sort(mainList, commandArgs);
                             break;
                         case "count":
-
+                           //execute Count.cs
                             break;
                         case "end":
-
+                            Console.Writeline("finished");
                             break;
 
                         default:
